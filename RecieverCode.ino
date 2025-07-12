@@ -1,3 +1,17 @@
+// 📥 Receiver
+// •	LDR/Photodiode → D6
+// •	LCD:
+// o	RS → D12
+// o	EN → D11
+// o	D4 → D5
+// o	D5 → D4
+// o	D6 → D3
+// o	D7 → D2
+// o	VSS → GND
+// o	VDD → 5V
+// o	RW → GND
+// o	VO → Potentiometer center pin
+
 #include <LiquidCrystal.h>
 
 const char CLEAR = 0;
