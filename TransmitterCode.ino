@@ -1,3 +1,8 @@
+// ▶️ Transmitter
+// •	Laser signal → D13
+// •	Serial input via PC
+// •	Laser module: VCC → 5V, GND → GND
+
 const int laserPin = 13;  // Laser connected to digital pin 13
 const unsigned long dotDuration = 50;  // Duration of a dot in milliseconds
 const unsigned long dashDuration = 3 * dotDuration;
